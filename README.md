@@ -12,7 +12,7 @@ This is a Next.js application implementing the Header and Slot Booking Calendar 
 
 1. Clone the repo or unzip the folder: git clone (https://github.com/iramnaazkhan001/Tallento_AI_Task.git) or download the ZIP folder.
 
-2. Navigate to the project directory: cd your-project-folder
+2. Navigate to the project directory: cd Tallento_AI_Task
 
 
 3. Install dependencies: npm install (This includes Next.js, React, Tailwind CSS, and lucide-react)

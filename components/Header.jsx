@@ -16,7 +16,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-slate-200 bg-white shadow-sm py-3 ">
+    <header className="sticky top-0 z-40 w-full border-b border-slate-200 bg-black shadow-sm py-3 ">
       <div className="mx-auto flex  items-center justify-between px-4 py-3 md:px-6 innerContainerWrapper">
        <Link href="/" className="flex items-center gap-2">
           <Image 
@@ -27,7 +27,7 @@ export default function Header() {
             height={20} 
           />
         </Link>
-        <nav className="hidden md:flex items-center gap-6 text-black">
+        <nav className="hidden md:flex items-center gap-6 text-white">
           <a
             href="#category"
             className="flex flex-col items-center text-sm font-semibold hover:text-[#f03a74]"
@@ -47,9 +47,6 @@ export default function Header() {
           <button className="relative flex flex-col items-center text-sm font-semibold hover:text-[#f03a74]">
             <Bell className="h-5 w-5 mb-1" />
             Notifications
-            <span className="absolute -top-1 right-2 flex h-4 w-4 items-center justify-center rounded-full bg-red-600 text-[10px] text-white">
-              2
-            </span>
           </button>
 
           <a
